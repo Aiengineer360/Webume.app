@@ -1,0 +1,47 @@
+export function Footer() {
+  return (
+    <footer className="w-full py-4 px-6  mt-auto border-t border-gray-200">
+      <div className="max-w-4xl justify-between items-center mx-auto w-full flex flex-col-reverse md:flex-row gap-2">
+        <div className="text-sm text-design-gray font-mono font-bold">
+          Powered by{' '}
+          <a
+            target="_blank"
+            href="https://togetherai.link"
+            className="text-design-black underline underline-offset-2"
+          >
+            Together.ai
+          </a>{' '}
+          &{' '}
+          <a
+            target="_blank"
+            href="https://togetherai.link"
+            className="text-design-black underline underline-offset-2"
+          >
+            Llama 3.3
+          </a>
+        </div>
+
+        <div className="flex gap-2">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/Aiengineer360"
+            className="size-6 flex items-center justify-center border-design-gray border rounded-md"
+          >
+            <img src="/footer/github.svg" className="size-4" />
+            <span className="sr-only">GitHub</span>
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/arooj-fatima-04026b255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            className="size-6 flex items-center justify-center border-design-gray border rounded-md"
+          >
+            <img src="/footer/link-icon.png" className="size-4" />
+            <span className="sr-only">Social</span>
+          </a>
+        </div>
+      </div>
+    </footer>
+  );
+}
